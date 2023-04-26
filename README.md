@@ -1,2 +1,2 @@
-# Dimensionality_Reduction_Silhoutte_Scores
+# Linear Mixing Model of Dimensionality Reduction to Reconstruct Fingerprints
  
