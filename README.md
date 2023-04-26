@@ -39,9 +39,7 @@ The output of this code includes a plot that compares the silhouette scores of e
 ## Mike's Helpful Suggestions
 
  1. Optimizing the UMAP
-Once the input data is loaded, the script calculates the UMAP and tSNE projections. It sets the matrix of the data to be used in the UMAP calculation by only selecting certain columns (specified by the user) of the input dataset. The user can then manually set the parameters for the UMAP calculation, including n_components, n_neighbors, and min_dist. The tSNE calculation is performed using the Rtsne function, with the user specifying the dimensions (3), perplexity (30), and the check_duplicates parameter set to FALSE.
-
-The user can use the sihoutte scores to determine which clustering best spreads out the K-mean clusters. Play around with the parameters and see what visualization brings the best power in explaining the unique K-means clusters of fingeprints!
+Once the input data is loaded, the script calculates the UMAP and tSNE projections. It sets the matrix of the data to be used in the UMAP calculation by only selecting certain columns (specified by the user) of the input dataset. The user can then manually set the parameters for the UMAP calculation, including n_components, n_neighbors, and min_dist. The tSNE calculation is performed using the Rtsne function, with the user specifying the dimensions (3), perplexity (30), and the check_duplicates parameter set to FALSE. The user can use the sihoutte scores to determine which clustering best spreads out the K-mean clusters. Play around with the parameters and see what visualization brings the best power in explaining the unique K-means clusters of fingeprints!
 
 2. Quick change of columns used for dimensionality reduction -> simply replace all the columns in the code with the ones you need and it should be fairly quick. 
 
